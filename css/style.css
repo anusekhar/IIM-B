@@ -1,0 +1,18 @@
+header {
+  height: 100px;
+  padding: 10px; }
+  header #search_img {
+    position: absolute;
+    right: 55px;
+    top: 25px; }
+  header #search_btn {
+    float: right;
+    margin-right: 30px;
+    width: 200px;
+    height: 20px;
+    border: 0;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 10px; }
+
+/*# sourceMappingURL=style.css.map */
