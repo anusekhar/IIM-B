@@ -1,9 +1,7 @@
 //Desktop view......
-
 @media (min-width : 1024px) {
     body {
         overflow-x: hidden;
-
     }
     .container {
         max-width: 1024px;
@@ -44,11 +42,12 @@
             background-position: center;
         }
         ul {
-            display: block;
+            display: flex;
+            flex-direction: row;
+            float: right;
             list-style-type: none;
-            text-align: right;
             li {
-                display: inline;
+                margin-top: 10px;
                 padding-right: 10px;
                 padding-left: 10px;
                 font-family: calibri;
@@ -58,6 +57,37 @@
             li:not(:last-child) {
                 border-right: 1px solid grey;
             }
+            li:first-child {
+                border-right: 0;
+                margin: 0;
+            }
+            .social_icons {
+                display: flex;
+                flex-direction: row;
+                li {
+                    width: 32px;
+                    height: 30px;
+                    margin: 0;
+                    padding: 0;
+                    border: none;
+                    background-image: url("../images/socialIcon_top.png");
+                }
+                & > li:nth-child(1) {
+                    background-position: 0px 0px;
+                }
+                & > li:nth-child(2) {
+                    background-position: 96px 0px;
+                }
+                & > li:nth-child(3) {
+                    background-position: 64px 0px;
+                }
+                & > li:nth-child(4) {
+                    background-position: 32px 0px;
+                }
+                & > li:hover {
+                    background-position-y: 30px;
+                }
+            }
         }
     }
     main {
@@ -66,22 +96,19 @@
             background-image: url("../images/topmenu_bg.png");
             height: 50px;
             ul {
+                display: flex;
+                flex-direction: row;
                 list-style-type: none;
-                padding-top: 17px;
                 padding-left: 0;
                 font-family: calibri;
                 font-size: 16px;
                 li {
                     padding: 17px;
                     padding-left: 25px;
-                    display: inline;
                     color: #fff;
                     border-right: 1px solid #fff;
                     &:hover {
                         background-color: #333;
-                    }
-                    &:not(:first-child) {
-                        margin-left: -3px;
                     }
                 }
             }
@@ -355,15 +382,31 @@
             }
             .connect {
                 width: 250px;
-                .social_img {
-                    div {
-                        float: left;
-                        display: inline;
+                .social_icons_foot {
+                    display: flex;
+                    flex-direction: row;
+                    li {
+                        width: 32px;
+                        height: 30px;
                         margin: 0;
                         padding: 0;
-                        max-width: 20px;
-                        height: 20px;
-                        background-color: #fff;
+                        border: none;
+                        background-image: url("../images/socialIcon_bottom.png");
+                    }
+                    & > li:nth-child(1) {
+                        background-position: 0px 0px;
+                    }
+                    & > li:nth-child(2) {
+                        background-position: 96px 0px;
+                    }
+                    & > li:nth-child(3) {
+                        background-position: 64px 0px;
+                    }
+                    & > li:nth-child(4) {
+                        background-position: 32px 0px;
+                    }
+                    & > li:hover {
+                        background-position-y: 29px;
                     }
                 }
             }
@@ -411,7 +454,7 @@
             width: 70%;
             margin-right: 30%;
             h2 {
-            padding-top: 20px;
+                padding-top: 20px;
                 font-family: calibri;
                 font-size: 36px;
                 font-weight: bold;
