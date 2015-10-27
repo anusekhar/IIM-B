@@ -47,6 +47,7 @@
             float: right;
             list-style-type: none;
             li {
+                cursor: pointer;
                 margin-top: 10px;
                 padding-right: 10px;
                 padding-left: 10px;
@@ -65,6 +66,7 @@
                 display: flex;
                 flex-direction: row;
                 li {
+                    cursor: pointer;
                     width: 32px;
                     height: 30px;
                     margin: 0;
@@ -74,18 +76,27 @@
                 }
                 & > li:nth-child(1) {
                     background-position: 0px 0px;
+                    &:hover {
+                        background-position: 0px 30px;
+                    }
                 }
                 & > li:nth-child(2) {
                     background-position: 96px 0px;
+                    &:hover {
+                        background-position: 96px 30px;
+                    }
                 }
                 & > li:nth-child(3) {
                     background-position: 64px 0px;
+                    &:hover {
+                        background-position: 64px 30px;
+                    }
                 }
                 & > li:nth-child(4) {
                     background-position: 32px 0px;
-                }
-                & > li:hover {
-                    background-position-y: 30px;
+                    &:hover {
+                        background-position: 32px 30px;
+                    }
                 }
             }
         }
@@ -103,6 +114,7 @@
                 font-family: calibri;
                 font-size: 16px;
                 li {
+                    cursor:pointer;
                     padding: 17px;
                     padding-left: 25px;
                     color: #fff;
@@ -386,6 +398,7 @@
                     display: flex;
                     flex-direction: row;
                     li {
+                        cursor:pointer;
                         width: 32px;
                         height: 30px;
                         margin: 0;
@@ -395,18 +408,27 @@
                     }
                     & > li:nth-child(1) {
                         background-position: 0px 0px;
+                        &:hover {
+                            background-position: 0px 29px;
+                        }
                     }
                     & > li:nth-child(2) {
                         background-position: 96px 0px;
+                        &:hover {
+                            background-position: 96px 29px;
+                        }
                     }
                     & > li:nth-child(3) {
                         background-position: 64px 0px;
+                        &:hover {
+                            background-position: 64px 29px;
+                        }
                     }
                     & > li:nth-child(4) {
                         background-position: 32px 0px;
-                    }
-                    & > li:hover {
-                        background-position-y: 29px;
+                        &:hover {
+                            background-position: 32px 29px;
+                        }
                     }
                 }
             }

@@ -112,7 +112,8 @@ table {
         background-color: #fff;
         border-radius: 5px;
         box-shadow: 2px blue;
-        border: 2px solid #EDEEF2; }
+        border: 2px solid #EDEEF2;
+        cursor: pointer; }
       header .nav_btn div:active {
         border: none !important;
         box-shadow: none !important; }
@@ -343,6 +344,7 @@ table {
           flex-direction: row;
           padding: 0; }
           footer section .connect .social_icons_foot li {
+            cursor: pointer;
             width: 32px;
             height: 30px;
             margin: 0;
@@ -350,15 +352,21 @@ table {
             border: none;
             background-image: url("../images/socialIcon_bottom.png"); }
           footer section .connect .social_icons_foot > li:nth-child(1) {
-            background-position: 0 0; }
+            background-position: 0px 0px; }
+            footer section .connect .social_icons_foot > li:nth-child(1):hover {
+              background-position: 0px 29px; }
           footer section .connect .social_icons_foot > li:nth-child(2) {
-            background-position: 96px 0; }
+            background-position: 96px 0px; }
+            footer section .connect .social_icons_foot > li:nth-child(2):hover {
+              background-position: 96px 29px; }
           footer section .connect .social_icons_foot > li:nth-child(3) {
-            background-position: 64px 0; }
+            background-position: 64px 0px; }
+            footer section .connect .social_icons_foot > li:nth-child(3):hover {
+              background-position: 64px 29px; }
           footer section .connect .social_icons_foot > li:nth-child(4) {
-            background-position: 32px 0; }
-          footer section .connect .social_icons_foot > li:hover {
-            background-position-y: 29px; }
+            background-position: 32px 0px; }
+            footer section .connect .social_icons_foot > li:nth-child(4):hover {
+              background-position: 32px 29px; }
       footer section .contact {
         width: 54%;
         padding-left: 5%;
@@ -430,6 +438,7 @@ table {
       top: 22px;
       width: 26px;
       height: 26px;
+      cursor: pointer;
       border: none;
       background-color: #fff;
       background-image: url("../images/search_icon.png");
@@ -443,14 +452,15 @@ table {
       float: right;
       list-style-type: none; }
       header ul li {
+        cursor: pointer;
         margin-top: 10px;
         padding-left: 10px;
+        padding-right: 10px;
         font-family: calibri;
         font-size: 12px;
         height: 12px;
         color: #686868; }
       header ul li:not(:last-child) {
-        padding-right: 10px;
         border-right: 1px solid grey; }
       header ul li:first-child {
         border-right: 0;
@@ -459,6 +469,7 @@ table {
         display: flex;
         flex-direction: row; }
         header ul .social_icons li {
+          cursor: pointer;
           width: 32px;
           height: 30px;
           margin: 0;
@@ -467,14 +478,20 @@ table {
           background-image: url("../images/socialIcon_top.png"); }
         header ul .social_icons > li:nth-child(1) {
           background-position: 0px 0px; }
+          header ul .social_icons > li:nth-child(1):hover {
+            background-position: 0px 30px; }
         header ul .social_icons > li:nth-child(2) {
           background-position: 96px 0px; }
+          header ul .social_icons > li:nth-child(2):hover {
+            background-position: 96px 30px; }
         header ul .social_icons > li:nth-child(3) {
           background-position: 64px 0px; }
+          header ul .social_icons > li:nth-child(3):hover {
+            background-position: 64px 30px; }
         header ul .social_icons > li:nth-child(4) {
           background-position: 32px 0px; }
-        header ul .social_icons > li:hover {
-          background-position-y: 30px; }
+          header ul .social_icons > li:nth-child(4):hover {
+            background-position: 32px 30px; }
 
   main {
     position: relative;
@@ -491,6 +508,7 @@ table {
         font-family: calibri;
         font-size: 14px; }
         main .header_nav ul li {
+          cursor: pointer;
           padding: 18px 10px;
           color: #fff;
           border-right: 1px solid #fff; }
@@ -750,6 +768,7 @@ table {
           display: flex;
           flex-direction: row; }
           footer section .connect .social_icons_foot li {
+            cursor: pointer;
             width: 32px;
             height: 30px;
             margin: 0;
@@ -758,14 +777,20 @@ table {
             background-image: url("../images/socialIcon_bottom.png"); }
           footer section .connect .social_icons_foot > li:nth-child(1) {
             background-position: 0px 0px; }
+            footer section .connect .social_icons_foot > li:nth-child(1):hover {
+              background-position: 0px 29px; }
           footer section .connect .social_icons_foot > li:nth-child(2) {
             background-position: 96px 0px; }
+            footer section .connect .social_icons_foot > li:nth-child(2):hover {
+              background-position: 96px 29px; }
           footer section .connect .social_icons_foot > li:nth-child(3) {
             background-position: 64px 0px; }
+            footer section .connect .social_icons_foot > li:nth-child(3):hover {
+              background-position: 64px 29px; }
           footer section .connect .social_icons_foot > li:nth-child(4) {
             background-position: 32px 0px; }
-          footer section .connect .social_icons_foot > li:hover {
-            background-position-y: 29px; }
+            footer section .connect .social_icons_foot > li:nth-child(4):hover {
+              background-position: 32px 29px; }
       footer section .contact {
         width: 33%; }
     footer .copyright {
@@ -862,6 +887,7 @@ table {
       float: right;
       list-style-type: none; }
       header ul li {
+        cursor: pointer;
         margin-top: 10px;
         padding-right: 10px;
         padding-left: 10px;
@@ -877,6 +903,7 @@ table {
         display: flex;
         flex-direction: row; }
         header ul .social_icons li {
+          cursor: pointer;
           width: 32px;
           height: 30px;
           margin: 0;
@@ -885,14 +912,20 @@ table {
           background-image: url("../images/socialIcon_top.png"); }
         header ul .social_icons > li:nth-child(1) {
           background-position: 0px 0px; }
+          header ul .social_icons > li:nth-child(1):hover {
+            background-position: 0px 30px; }
         header ul .social_icons > li:nth-child(2) {
           background-position: 96px 0px; }
+          header ul .social_icons > li:nth-child(2):hover {
+            background-position: 96px 30px; }
         header ul .social_icons > li:nth-child(3) {
           background-position: 64px 0px; }
+          header ul .social_icons > li:nth-child(3):hover {
+            background-position: 64px 30px; }
         header ul .social_icons > li:nth-child(4) {
           background-position: 32px 0px; }
-        header ul .social_icons > li:hover {
-          background-position-y: 30px; }
+          header ul .social_icons > li:nth-child(4):hover {
+            background-position: 32px 30px; }
 
   main .header_nav {
     display: block;
@@ -906,6 +939,7 @@ table {
       font-family: calibri;
       font-size: 16px; }
       main .header_nav ul li {
+        cursor: pointer;
         padding: 17px;
         padding-left: 25px;
         color: #fff;
@@ -1133,6 +1167,7 @@ table {
           display: flex;
           flex-direction: row; }
           footer section .connect .social_icons_foot li {
+            cursor: pointer;
             width: 32px;
             height: 30px;
             margin: 0;
@@ -1141,14 +1176,20 @@ table {
             background-image: url("../images/socialIcon_bottom.png"); }
           footer section .connect .social_icons_foot > li:nth-child(1) {
             background-position: 0px 0px; }
+            footer section .connect .social_icons_foot > li:nth-child(1):hover {
+              background-position: 0px 29px; }
           footer section .connect .social_icons_foot > li:nth-child(2) {
             background-position: 96px 0px; }
+            footer section .connect .social_icons_foot > li:nth-child(2):hover {
+              background-position: 96px 29px; }
           footer section .connect .social_icons_foot > li:nth-child(3) {
             background-position: 64px 0px; }
+            footer section .connect .social_icons_foot > li:nth-child(3):hover {
+              background-position: 64px 29px; }
           footer section .connect .social_icons_foot > li:nth-child(4) {
             background-position: 32px 0px; }
-          footer section .connect .social_icons_foot > li:hover {
-            background-position-y: 29px; }
+            footer section .connect .social_icons_foot > li:nth-child(4):hover {
+              background-position: 32px 29px; }
       footer section .contact {
         width: 350px; }
     footer .copyright {
