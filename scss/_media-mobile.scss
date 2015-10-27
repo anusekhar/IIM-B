@@ -36,6 +36,7 @@
                 border-radius: 5px;
                 box-shadow: 2px blue;
                 border: 2px solid #EDEEF2;
+                cursor: pointer;
             }
             div:active {
                 border: none !important;
@@ -338,6 +339,7 @@
                     flex-direction: row;
                     padding: 0;
                     li {
+                        cursor: pointer;
                         width: 32px;
                         height: 30px;
                         margin: 0;
@@ -346,19 +348,29 @@
                         background-image: url("../images/socialIcon_bottom.png");
                     }
                     & > li:nth-child(1) {
-                        background-position: 0 0;
+
+                        background-position: 0px 0px;
+                        &:hover {
+                            background-position: 0px 29px;
+                        }
                     }
                     & > li:nth-child(2) {
-                        background-position: 96px 0;
+                        background-position: 96px 0px;
+                        &:hover {
+                            background-position: 96px 29px;
+                        }
                     }
                     & > li:nth-child(3) {
-                        background-position: 64px 0;
+                        background-position: 64px 0px;
+                        &:hover {
+                            background-position: 64px 29px;
+                        }
                     }
                     & > li:nth-child(4) {
-                        background-position: 32px 0;
-                    }
-                    & > li:hover {
-                        background-position-y: 29px;
+                        background-position: 32px 0px;
+                        &:hover {
+                            background-position: 32px 29px;
+                        }
                     }
                 }
             }
