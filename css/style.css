@@ -447,6 +447,8 @@ table {
     header .nav_btn {
       display: none; }
     header ul {
+      position: relative;
+      top: -20px;
       display: flex;
       flex-direction: row;
       float: right;
@@ -467,7 +469,8 @@ table {
         margin: 0; }
       header ul .social_icons {
         display: flex;
-        flex-direction: row; }
+        flex-direction: row;
+        top: 0; }
         header ul .social_icons li {
           cursor: pointer;
           width: 32px;
@@ -495,6 +498,7 @@ table {
 
   main {
     position: relative;
+    top: -20px;
     width: 100%; }
     main .header_nav {
       width: 100%;
@@ -852,7 +856,6 @@ table {
 
   header {
     width: 100%;
-    height: 100px;
     padding: 10px;
     padding-top: 20px;
     position: relative; }
@@ -884,8 +887,9 @@ table {
     header ul {
       display: flex;
       flex-direction: row;
-      float: right;
-      list-style-type: none; }
+      list-style-type: none;
+      position: relative;
+      top: -20px; }
       header ul li {
         cursor: pointer;
         margin-top: 10px;
@@ -901,7 +905,8 @@ table {
         margin: 0; }
       header ul .social_icons {
         display: flex;
-        flex-direction: row; }
+        flex-direction: row;
+        top: 0; }
         header ul .social_icons li {
           cursor: pointer;
           width: 32px;
@@ -927,54 +932,57 @@ table {
           header ul .social_icons > li:nth-child(4):hover {
             background-position: 32px 30px; }
 
-  main .header_nav {
-    display: block;
-    background-image: url("../images/topmenu_bg.png");
-    height: 50px; }
-    main .header_nav ul {
-      display: flex;
-      flex-direction: row;
-      list-style-type: none;
-      padding-left: 0;
-      font-family: calibri;
-      font-size: 16px; }
-      main .header_nav ul li {
-        cursor: pointer;
-        padding: 17px;
-        padding-left: 25px;
-        color: #fff;
-        border-right: 1px solid #fff; }
-        main .header_nav ul li:hover {
-          background-color: #333; }
-  main .slider {
-    margin-top: 5px;
-    width: 1024px; }
-  main .slider_content {
-    float: left;
-    width: 346px;
-    height: 357px;
-    padding: 20px;
-    padding-top: 50px;
-    background-image: linear-gradient(180deg, #4579f6, #4d9bfd); }
-    main .slider_content h2 {
-      font-family: 'Roboto Slab', serif;
-      font-size: 34px;
-      color: #fefefe;
-      line-height: 50px; }
-    main .slider_content p {
-      font-family: 'Open Sans', sans-serif;
-      font-size: 16px;
-      color: #fefefe;
-      line-height: 25px; }
-    main .slider_content a {
-      color: #fefefe; }
-  main .slider_img {
-    width: 636px;
-    height: 427px;
-    float: right; }
-    main .slider_img img {
-      width: 100%;
-      height: 100%; }
+  main {
+    position: relative;
+    top: -20px; }
+    main .header_nav {
+      display: block;
+      background-image: url("../images/topmenu_bg.png");
+      height: 50px; }
+      main .header_nav ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding-left: 0;
+        font-family: calibri;
+        font-size: 16px; }
+        main .header_nav ul li {
+          cursor: pointer;
+          padding: 17px;
+          padding-left: 25px;
+          color: #fff;
+          border-right: 1px solid #fff; }
+          main .header_nav ul li:hover {
+            background-color: #333; }
+    main .slider {
+      margin-top: 5px;
+      width: 1024px; }
+    main .slider_content {
+      float: left;
+      width: 346px;
+      height: 357px;
+      padding: 20px;
+      padding-top: 50px;
+      background-image: linear-gradient(180deg, #4579f6, #4d9bfd); }
+      main .slider_content h2 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 34px;
+        color: #fefefe;
+        line-height: 50px; }
+      main .slider_content p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        color: #fefefe;
+        line-height: 25px; }
+      main .slider_content a {
+        color: #fefefe; }
+    main .slider_img {
+      width: 636px;
+      height: 427px;
+      float: right; }
+      main .slider_img img {
+        width: 100%;
+        height: 100%; }
 
   .content {
     display: flex;

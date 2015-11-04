@@ -47,6 +47,8 @@
             display: none;
         }
         ul {
+            position: relative;
+            top: -20px;
             display: flex;
             flex-direction: row;
             float: right;
@@ -71,6 +73,7 @@
             .social_icons {
                 display: flex;
                 flex-direction: row;
+                top: 0;
                 li {
                     cursor: pointer;
                     width: 32px;
@@ -111,6 +114,7 @@
     }
     main {
         position: relative;
+        top: -20px;
         width: 100%;
         .header_nav {
             width: 100%;
