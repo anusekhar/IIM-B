@@ -1,0 +1,16 @@
+[{
+    "id": 1,
+    "title": "Earth Day Celebrations at IIMB",
+    "desc": "On Earth Day at IIMB, environmentalist Suresh Heblikar rues that all districts in the state aspire to Bangalore's  model but hopes young minds, like those at IIMB, can reverse this trend...",
+    "image_url": "images/DSC_0266.jpeg"
+}, {
+    "id": 2,
+    "title": "Title 2",
+    "desc": "Content goes here",
+    "image_url": "images/IMG_3048.jpeg"
+}, {
+    "id": 3,
+    "title": "Title 3",
+    "desc": "Content goes here",
+    "image_url": "images/IMG_3146.jpeg"
+}]

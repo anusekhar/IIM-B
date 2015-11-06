@@ -9,6 +9,7 @@
     }
     header {
         width: 100%;
+
         // height: 100px;
         padding: 10px;
         padding-top: 20px;
@@ -77,25 +78,25 @@
                     background-image: url("../images/socialIcon_top.png");
                 }
                 & > li:nth-child(1) {
-                    background-position: 0px 0px;
+                    background-position: 0 0;
                     &:hover {
-                        background-position: 0px 30px;
+                        background-position: 0 30px;
                     }
                 }
                 & > li:nth-child(2) {
-                    background-position: 96px 0px;
+                    background-position: 96px 0;
                     &:hover {
                         background-position: 96px 30px;
                     }
                 }
                 & > li:nth-child(3) {
-                    background-position: 64px 0px;
+                    background-position: 64px 0;
                     &:hover {
                         background-position: 64px 30px;
                     }
                 }
                 & > li:nth-child(4) {
-                    background-position: 32px 0px;
+                    background-position: 32px 0;
                     &:hover {
                         background-position: 32px 30px;
                     }
@@ -118,7 +119,7 @@
                 font-family: calibri;
                 font-size: 16px;
                 li {
-                    cursor:pointer;
+                    cursor: pointer;
                     padding: 17px;
                     padding-left: 25px;
                     color: #fff;
@@ -129,7 +130,7 @@
                 }
             }
         }
-        .slider {
+        #slider {
             margin-top: 5px;
             width: 1024px;
         }
@@ -154,6 +155,23 @@
             }
             a {
                 color: #fefefe;
+            }
+            .banner {
+                div {
+                    display: inline-block;
+                    width: 30px;
+                    height: 40px;
+                }
+                #prev {
+                    background-image: url('../images/banner_navigation.png');
+                    background-position: -2px 8px;
+                    background-repeat: no-repeat;
+                }
+                #next {
+                    background-image: url('../images/banner_navigation.png');
+                    background-position: -33px 8px;
+                    background-repeat: no-repeat;
+                }
             }
         }
         .slider_img {
@@ -402,7 +420,7 @@
                     display: flex;
                     flex-direction: row;
                     li {
-                        cursor:pointer;
+                        cursor: pointer;
                         width: 32px;
                         height: 30px;
                         margin: 0;
@@ -411,25 +429,25 @@
                         background-image: url("../images/socialIcon_bottom.png");
                     }
                     & > li:nth-child(1) {
-                        background-position: 0px 0px;
+                        background-position: 0 0;
                         &:hover {
-                            background-position: 0px 29px;
+                            background-position: 0 29px;
                         }
                     }
                     & > li:nth-child(2) {
-                        background-position: 96px 0px;
+                        background-position: 96px 0;
                         &:hover {
                             background-position: 96px 29px;
                         }
                     }
                     & > li:nth-child(3) {
-                        background-position: 64px 0px;
+                        background-position: 64px 0;
                         &:hover {
                             background-position: 64px 29px;
                         }
                     }
                     & > li:nth-child(4) {
-                        background-position: 32px 0px;
+                        background-position: 32px 0;
                         &:hover {
                             background-position: 32px 29px;
                         }

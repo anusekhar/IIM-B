@@ -916,19 +916,19 @@ table {
           border: none;
           background-image: url("../images/socialIcon_top.png"); }
         header ul .social_icons > li:nth-child(1) {
-          background-position: 0px 0px; }
+          background-position: 0 0; }
           header ul .social_icons > li:nth-child(1):hover {
-            background-position: 0px 30px; }
+            background-position: 0 30px; }
         header ul .social_icons > li:nth-child(2) {
-          background-position: 96px 0px; }
+          background-position: 96px 0; }
           header ul .social_icons > li:nth-child(2):hover {
             background-position: 96px 30px; }
         header ul .social_icons > li:nth-child(3) {
-          background-position: 64px 0px; }
+          background-position: 64px 0; }
           header ul .social_icons > li:nth-child(3):hover {
             background-position: 64px 30px; }
         header ul .social_icons > li:nth-child(4) {
-          background-position: 32px 0px; }
+          background-position: 32px 0; }
           header ul .social_icons > li:nth-child(4):hover {
             background-position: 32px 30px; }
 
@@ -954,7 +954,7 @@ table {
           border-right: 1px solid #fff; }
           main .header_nav ul li:hover {
             background-color: #333; }
-    main .slider {
+    main #slider {
       margin-top: 5px;
       width: 1024px; }
     main .slider_content {
@@ -976,6 +976,18 @@ table {
         line-height: 25px; }
       main .slider_content a {
         color: #fefefe; }
+      main .slider_content .banner div {
+        display: inline-block;
+        width: 30px;
+        height: 40px; }
+      main .slider_content .banner #prev {
+        background-image: url("../images/banner_navigation.png");
+        background-position: -2px 8px;
+        background-repeat: no-repeat; }
+      main .slider_content .banner #next {
+        background-image: url("../images/banner_navigation.png");
+        background-position: -33px 8px;
+        background-repeat: no-repeat; }
     main .slider_img {
       width: 636px;
       height: 427px;
@@ -1183,19 +1195,19 @@ table {
             border: none;
             background-image: url("../images/socialIcon_bottom.png"); }
           footer section .connect .social_icons_foot > li:nth-child(1) {
-            background-position: 0px 0px; }
+            background-position: 0 0; }
             footer section .connect .social_icons_foot > li:nth-child(1):hover {
-              background-position: 0px 29px; }
+              background-position: 0 29px; }
           footer section .connect .social_icons_foot > li:nth-child(2) {
-            background-position: 96px 0px; }
+            background-position: 96px 0; }
             footer section .connect .social_icons_foot > li:nth-child(2):hover {
               background-position: 96px 29px; }
           footer section .connect .social_icons_foot > li:nth-child(3) {
-            background-position: 64px 0px; }
+            background-position: 64px 0; }
             footer section .connect .social_icons_foot > li:nth-child(3):hover {
               background-position: 64px 29px; }
           footer section .connect .social_icons_foot > li:nth-child(4) {
-            background-position: 32px 0px; }
+            background-position: 32px 0; }
             footer section .connect .social_icons_foot > li:nth-child(4):hover {
               background-position: 32px 29px; }
       footer section .contact {
